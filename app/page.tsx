@@ -9,7 +9,7 @@ export default function Page() {
     <main className="flex min-h-screen flex-col p-6">
       <div className="flex h-20 shrink-0 items-end rounded-lg bg-blue-500 p-4 md:h-52">
         <h1 className="text-1xl mb-4 font-extrabold text-white md:text-5xl">
-          Daniel's Super Cool Accounting Website
+          Daniel&apos;s Super Cool Accounting Website
         </h1>
       </div>
       <div className="mt-4 flex grow flex-col gap-4 md:flex-row">
@@ -18,7 +18,7 @@ export default function Page() {
           <p
             className={` ${lusitana.className} text-xl text-gray-800 md:text-3xl md:leading-normal`}
           >
-            <strong>Welcome to Dan's Accounting.</strong>
+            <strong>Welcome to Dan&apos;s Accounting.</strong>
             This is a super cool accounting website that realistically does
             nothing at all.
           </p>

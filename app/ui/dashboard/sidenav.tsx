@@ -11,7 +11,7 @@ export default function SideNav() {
       >
         <div className="w-32 text-white md:w-40">
           <h1 className=" text-1xl font-extrabold text-white md:mb-4 md:text-5xl">
-            Daniel's Website
+            Daniel&apos;s Website
           </h1>
         </div>
       </Link>
