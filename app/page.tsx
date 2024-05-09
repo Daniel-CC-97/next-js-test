@@ -1,16 +1,13 @@
-import AcmeLogo from '@/app/ui/acme-logo';
 import { ArrowRightIcon } from '@heroicons/react/24/outline';
 import Link from 'next/link';
 import styles from '@/app/ui/home.module.css';
 import { lusitana } from './ui/fonts';
-
 import Image from 'next/image';
 
 export default function Page() {
   return (
     <main className="flex min-h-screen flex-col p-6">
       <div className="flex h-20 shrink-0 items-end rounded-lg bg-blue-500 p-4 md:h-52">
-        {/* <AcmeLogo /> */}
         <h1 className='mb-4 text-1xl font-extrabold text-white md:text-5xl'>Daniel's Super Cool Accounting Website</h1>
       </div>
       <div className="mt-4 flex grow flex-col gap-4 md:flex-row">
@@ -18,9 +15,6 @@ export default function Page() {
         <div className={styles.shape}/>
           <p className={` ${lusitana.className} text-xl text-gray-800 md:text-3xl md:leading-normal`}>
             <strong>Welcome to Dan's Accounting.</strong> 
-            {/* <a href="https://nextjs.org/learn/" className="text-blue-500">
-              Next.js Learn Course
-            </a> */}
             This is a super cool accounting website that realistically does nothing at all.
           </p>
           <Link
