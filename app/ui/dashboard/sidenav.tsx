@@ -10,7 +10,9 @@ export default function SideNav() {
         href="/"
       >
         <div className="w-32 text-white md:w-40">
-          <h1 className=' text-1xl font-extrabold text-white md:text-5xl md:mb-4'>Daniel's Website</h1>
+          <h1 className=" text-1xl font-extrabold text-white md:mb-4 md:text-5xl">
+            Daniel's Website
+          </h1>
         </div>
       </Link>
       <div className="flex grow flex-row justify-between space-x-2 md:flex-col md:space-x-0 md:space-y-2">
